@@ -1,0 +1,2 @@
+# small_model_face_recognition
+针对移动端的人脸识别需求，训练测试一些的小模型相关实验。
