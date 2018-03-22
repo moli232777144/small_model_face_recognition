@@ -4,3 +4,6 @@
 [submodule "tools/caffe-windows"]
 	path = tools/caffe-windows
 	url = https://github.com/happynear/caffe-windows.git
+[submodule "tools/toolbox"]
+	path = tools/toolbox
+	url = https://github.com/pdollar/toolbox.git
