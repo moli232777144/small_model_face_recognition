@@ -1,0 +1,6 @@
+[submodule "tools/MTCNN_face_detection_alignment"]
+	path = tools/MTCNN_face_detection_alignment
+	url = https://github.com/kpzhang93/MTCNN_face_detection_alignment.git
+[submodule "tools/caffe-windows"]
+	path = tools/caffe-windows
+	url = https://github.com/happynear/caffe-windows.git
