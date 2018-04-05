@@ -1,7 +1,7 @@
 % --------------------------------------------------------
 % Copyright (c) Weiyang Liu, Yandong Wen
 % Licensed under The MIT License [see LICENSE for details]
-%
+% 这是一个修改后的人脸裁剪，可选择使用wuxiang及seetaface缩小后的五点对齐
 % Intro:
 % This script is used to align the faces by similarity transformation.
 %

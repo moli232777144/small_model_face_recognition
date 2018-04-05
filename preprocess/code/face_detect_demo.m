@@ -1,7 +1,7 @@
 % --------------------------------------------------------
 % Copyright (c) Weiyang Liu, Yandong Wen
 % Licensed under The MIT License [see LICENSE for details]
-%
+% 这个基于sphereface相关代码的一个人脸检测提取，注意事项同下；
 % Intro:
 % This script is used to detect the faces in training & testing datasets (CASIA & LFW).
 % Face and facial landmark detection are performed by MTCNN 

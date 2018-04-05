@@ -593,7 +593,7 @@ layer {
   bottom: "label"
   top: "fc6_margin"
   label_specific_add_param {
-    bias: -0.35
+    bias: -0.25
   }
 }
 layer {

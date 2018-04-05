@@ -5,20 +5,20 @@ test_iter: 10
 test_interval: 500000
 test_initialization: false
 
-base_lr: 0.001
+base_lr: 0.01
 lr_policy: "multistep"
 gamma: 0.1
 
-stepvalue: 32000
-stepvalue: 48000
-stepvalue: 56000
-max_iter: 60000
-iter_size: 2
+stepvalue: 60000
+stepvalue: 90000
+stepvalue: 120000
+max_iter: 120000
+#iter_size: 2
 
 display: 100
 momentum: 0.9
 weight_decay: 0.0005
-snapshot: 1000
+snapshot: 2000
 snapshot_prefix: "result/lightcnn_small_train"
 
 solver_mode: GPU

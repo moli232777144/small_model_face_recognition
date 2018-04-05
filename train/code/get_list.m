@@ -1,9 +1,9 @@
 % --------------------------------------------------------
 % Copyright (c) Weiyang Liu, Yandong Wen
 % Licensed under The MIT License [see LICENSE for details]
-%
+% 这是一个修改后的目录提取，去除了CASIA与LFW重复的相关人员；
 % Intro:
-% Get a image list `$SPHEREFACE_ROOT/train/data/CASIA-WebFace-112X96.txt`,
+% Get a image list `$SPHEREFACE_ROOT/train/data/CASIA-WebFace-wx-128X128.txt`,
 % which is needed by caffe-sphereface
 %
 % Usage:

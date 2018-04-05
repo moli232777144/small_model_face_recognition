@@ -19,7 +19,7 @@ cd('../')
 
 %% caffe setttings
 matCaffe = fullfile(pwd, '../tools/caffe-windows/matlab');
-addpath(genpath(matCaffe));
+% addpath(genpath(matCaffe));
 gpu = 1;
 if gpu
    gpu_id = 0;
@@ -30,10 +30,10 @@ else
 end
 caffe.reset_all();
 
-model   = '../train/code/light_cnn_small_deploy.prototxt';
-weights = '../train/result/lightcnn_small_train_iter_60000.caffemodel';
+model   = '../train/code/lightcnn_small_deploy.prototxt';
+weights = '../train/result/lightcnn_small_train_iter_112000.caffemodel';
 net     = caffe.Net(model, weights, 'test');
-net.save('result/lightcnn_modelB.caffemodel');
+net.save('result/lightcnn_small.caffemodel');
 
 %% compute features
 pairs = parseList('data/pairs.txt', fullfile(pwd, 'data/lfw-wx-128X128'));
